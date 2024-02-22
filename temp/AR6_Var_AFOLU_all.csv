@@ -1,0 +1,83 @@
+Category,Variable,Unit,Definition,Core,AFOLU
+Land,Agricultural Demand,million t DM/yr,"total demand for food, non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)",2,1
+Land,Agricultural Demand|Crops,million t DM/yr,"total demand for food, non-food and feed crops and bioenergy crops (1st & 2nd generation)",2,1
+Land,Agricultural Demand|Crops|Energy,million t DM/yr,demand for modern primary energy crops (1st and 2nd generation),2,1
+Land,Agricultural Demand|Crops|Energy|1st generation,million t DM/yr,Demand for modern primary 1st generation energy crops,NA,1
+Land,Agricultural Demand|Crops|Energy|2nd generation,million t DM/yr,Demand for modern primary 2nd generation energy crops,NA,1
+Land,Agricultural Demand|Crops|Feed,million t DM/yr,total demand for feed crops,NA,1
+Land,Agricultural Demand|Crops|Food,million t DM/yr,total demand for food crops,NA,1
+Land,Agricultural Demand|Crops|Other,million t DM/yr,total demand for other crops,NA,1
+Land,Agricultural Demand|Livestock,million t DM/yr,total demand for livestock,2,1
+Land,Agricultural Demand|Livestock|Food,million t DM/yr,total demand for food livestock,NA,1
+Land,Agricultural Demand|Livestock|Other,million t DM/yr,total demand for other livestock,NA,1
+Land,Agricultural Production,million t DM/yr,"total production of food, non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)",2,1
+Land,Agricultural Production|Energy,million t DM/yr,total bioenergy-related agricultural production (including waste and residues),2,1
+Land,Agricultural Production|Energy|Crops,million t DM/yr,production for modern primary energy crops (1st and 2nd generation),NA,1
+Land,Agricultural Production|Energy|Residues,million t DM/yr,production of agricultural residues for modern bioenergy production,NA,1
+Land,Agricultural Production|Non-Energy,million t DM/yr,"total production for food, non-food and feed products (crops and livestock)",2,1
+Land,Agricultural Production|Non-Energy|Crops,million t DM/yr,"total production for food, non-food and feed products (crops)",NA,1
+Land,Agricultural Production|Non-Energy|Livestock,million t DM/yr,total production for livestock products,NA,1
+CCS,Carbon Sequestration|CCS,Mt CO2/yr,"total carbon dioxide emissions captured and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",1,1
+CCS,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,"total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",1,1
+CCS,Carbon Sequestration|Land Use,Mt CO2/yr,"total carbon dioxide sequestered through land-based sinks (e.g., afforestation, soil carbon enhancement, biochar)",1,1
+Agriculture,Fertilizer Use|Nitrogen,Tg N/yr,total nitrogen fertilizer use (organic + inorganic),NA,2
+Agriculture,Fertilizer Use|Nitrogen|Inorganic,Tg N/yr,Total nitrogen inputs in inorganic fertilizer use,NA,2
+Agriculture,Fertilizer Use|Nitrogen|Organic,Tg N/yr,Total nitrogen inputs in organic fertilizer use,NA,2
+Agriculture,Fertilizer Use|Phosphorous|Inorganic,Tg P/yr,Total phosphorous inputs in inorganic fertilizer use,NA,2
+Agriculture,Fertilizer Use|Phosphorous|Organic,Tg P/yr,Total phosphorous inputs in organic fertilizer use,NA,2
+Agriculture,Fertilizer Use|Phosphorus,Tg P/yr,total phosphorus fertilizer use (organic + inorganic),NA,2
+Agriculture,Fertilizer Use|Potassium,Tg K2O/yr,total potassium fertilizer use (organic + inorganic),NA,2
+Agriculture,Fertilizer Use|Potassium|Inorganic,Tg K2O/yr,Total potassium inputs in inorganic fertilizer use,NA,2
+Agriculture,Fertilizer Use|Potassium|Organic,Tg K2O/yr,Total potassium inputs in organic fertilizer use,NA,2
+Land cover,Land Cover,million ha,total land cover,2,1
+Land cover,Land Cover|Built-up Area,million ha,total built-up land associated with human settlement,2,1
+Land cover,Land Cover|Cropland,million ha,"total arable land, i.e. land in non-forest bioenergy crop, food, and feed/fodder crops, as well as other arable land (cultivated area)",2,1
+Land cover,Land Cover|Cropland|Cereals,million ha,"land dedicated to cereal crops: wheat, rice and coarse grains (maize, corn, millet, sorghum, barley, oats, rye)",NA,1
+Land cover,Land Cover|Cropland|Double-cropped,million ha,area of land that is double-cropped (twice in a year),NA,1
+Land cover,Land Cover|Cropland|Energy Crops,million ha,land dedicated to both 1st & 2nd generation energy crops,2,1
+Land cover,Land Cover|Cropland|Energy Crops|1st generation,million ha,land dedicated to 1st generation energy crops,NA,1
+Land cover,Land Cover|Cropland|Energy Crops|2nd generation,million ha,"land dedicated to 2nd generation energy crops (e.g., switchgrass, miscanthus, fast-growing wood species)",NA,1
+Land cover,Land Cover|Cropland|Energy Crops|Irrigated,million ha,"irrigated land dedicated to energy crops (e.g., switchgrass, miscanthus, fast-growing wood species)",NA,1
+Land cover,Land Cover|Cropland|Irrigated,million ha,"irrigated arable land, i.e. land in non-forest bioenergy crop, food, and feed/fodder crops, as well as other arable land (cultivated area)",NA,1
+Land cover,Land Cover|Cropland|Rainfed,million ha,area of land that is rain-fed,NA,1
+Land cover,Land Cover|Forest,million ha,managed and unmanaged forest area,2,1
+Land cover,Land Cover|Forest|Afforestation and Reforestation,million ha,area with afforestation and reforestation,NA,1
+Land cover,Land Cover|Forest|Forestry|Harvested Area,million ha,Forest area harvested,NA,1
+Land cover,Land Cover|Forest|Managed,million ha,"managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under ""energy crops"")",NA,1
+Land cover,Land Cover|Forest|Natural Forest,million ha,"undisturbed natural forests, modified natural forests",NA,1
+Land cover,Land Cover|Forest|Secondary,million ha,"regrown (unmanaged) secondary forests, e.g. from abandoned agricultural land",NA,1
+Land cover,Land Cover|Other Arable Land,million ha,"other arable land that is unmanaged (e.g., grassland, savannah, shrubland), excluding unmanaged forests that are arable",2,1
+Land cover,Land Cover|Other Land,million ha,"other land cover that does not fit into any other category (e.g., rock, ice, desert, water, please provide a definition of the sources in this category in the 'comments' tab)",NA,1
+Land cover,Land Cover|Pasture,million ha,"pasture land. All categories of pasture land - not only high quality rangeland. Based on FAO definition of ""permanent meadows and pastures""",2,1
+Land cover,Land Cover|Water Ecosystems|Forests,million ha,Land-use coverage of water-related ecosystem: forests,NA,1
+Land cover,Land Cover|Water Ecosystems|Glaciers,million ha,Land-use coverage of water-related ecosystem: glaciers,NA,1
+Land cover,Land Cover|Water Ecosystems|Lakes,million ha,Land-use coverage of water-related ecosystem: lakes,NA,1
+Land cover,Land Cover|Water Ecosystems|Mountains,million ha,Land-use coverage of water-related ecosystem: mountains,NA,1
+Land cover,Land Cover|Water Ecosystems|Wetlands,million ha,Land-use coverage of water-related ecosystem: wetlands,NA,1
+Agriculture,Yield|Bioenergy|2nd generation,t DM/ha/yr,"aggregated yield of 2nd generation energy crops (e.g., switchgrass, miscanthus, fast-growing wood species)",NA,2
+Agriculture,Yield|Cereal,t DM/ha/yr,yield of cereal production per until of area (used here as repreentative crop to measure yield assumptions),NA,2
+Agriculture,Yield|Oilcrops,t DM/ha/yr,"aggregated yield of Oilcrops (e.g. soybean, rapeseed, groundnut, sunflower, oilpalm)",NA,2
+Agriculture,Yield|Sugarcrops,t DM/ha/yr,"aggregated yield of Sugarcrops (e.g. sugarbeet, sugarcane)",NA,2
+Household,Expenditure|household|Food,billion US$2010/yr,expenditure of households for food.,NA,NA
+SDG,Food Demand,kcal/cap/day,"all food demand in calories (conversion factor: 1 kcal = 4,1868 kJ)",2,NA
+SDG,Food Demand|Crops,kcal/cap/day,crop related food demand in calories,2,NA
+SDG,Food Demand|Livestock,kcal/cap/day,livestock related food demand in calories,2,NA
+SDG,Food Energy Supply,EJ/yr,total calory food demand,NA,NA
+SDG,Food Energy Supply|Livestock,EJ/yr,calory food demand from livestock products,NA,NA
+SDG,Food|Availability,kcal/cap/day,Food available for consumption per capita,NA,NA
+SDG,Subsidies|Food,billion US$2010/yr,food subsidies (both to producers and consumers),NA,NA
+SDG,Food Waste,kcal/cap/day,Food waste per capita,NA,NA
+Water,Improvement|Efficiency|Irrigation,%/yr,improvements in irrigation water use efficiency per year,NA,NA
+Water,Water Consumption|Irrigation,km3/yr,water consumption for the irrigation,NA,NA
+Water,Water Consumption|Livestock,km3/yr,water consumption for livestock,NA,NA
+Water,Water Withdrawal|Irrigation,km3/yr,water withdrawal for irrigation,NA,NA
+Water,Water Withdrawal|Livestock,km3/yr,water withdrawals for livestock,NA,NA
+Economy,Price|Agriculture|Corn|Index,Index (2010 = 1),price index of corn,NA,NA
+Economy,Price|Agriculture|Livestock|Index,Index (2010 = 1),weighted average price index of livestock,NA,NA
+Economy,Price|Agriculture|Non-Energy Crops and Livestock|Index,Index (2010 = 1),weighted average price index of non-energy crops and livestock products,NA,NA
+Economy,Price|Agriculture|Non-Energy Crops|Index,Index (2010 = 1),weighted average price index of non-energy crops,NA,NA
+Economy,Price|Agriculture|Rice|Index,Index (2010 = 1),price index of rice,NA,NA
+Economy,Price|Agriculture|Soybean|Index,Index (2010 = 1),price index of soybean,NA,NA
+Economy,Price|Agriculture|Wheat|Index,Index (2010 = 1),price index of wheat,NA,NA
+Economy,Price|Primary Energy|Biomass,US$2010/GJ,biomass producer price,NA,NA
+SDG,Employment|Agriculture,million,number of employed inhabitants (payrolls) in agriculture (based on ILO classification),NA,NA

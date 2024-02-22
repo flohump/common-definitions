@@ -1,0 +1,355 @@
+- Agricultural Demand:
+    Description: total demand for food, non-food and feed products (crops and livestock)
+      and bioenergy crops (1st & 2nd generation)
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Demand|Crops:
+    Description: total demand for food, non-food and feed crops and bioenergy crops
+      (1st & 2nd generation)
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Demand|Crops|Energy:
+    Description: demand for modern primary energy crops (1st and 2nd generation)
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Demand|Crops|Energy|1st generation:
+    Description: Demand for modern primary 1st generation energy crops
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Demand|Crops|Energy|2nd generation:
+    Description: Demand for modern primary 2nd generation energy crops
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Demand|Crops|Feed:
+    Description: total demand for feed crops
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Demand|Crops|Food:
+    Description: total demand for food crops
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Demand|Crops|Other:
+    Description: total demand for other crops
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Demand|Livestock:
+    Description: total demand for livestock
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Demand|Livestock|Food:
+    Description: total demand for food livestock
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Demand|Livestock|Other:
+    Description: total demand for other livestock
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Production:
+    Description: total production of food, non-food and feed products (crops and livestock)
+      and bioenergy crops (1st & 2nd generation)
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Production|Energy:
+    Description: total bioenergy-related agricultural production (including waste
+      and residues)
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Production|Energy|Crops:
+    Description: production for modern primary energy crops (1st and 2nd generation)
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Production|Energy|Residues:
+    Description: production of agricultural residues for modern bioenergy production
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Production|Non-Energy:
+    Description: total production for food, non-food and feed products (crops and
+      livestock)
+    Unit: million t DM/yr
+    Tier: 2
+- Agricultural Production|Non-Energy|Crops:
+    Description: total production for food, non-food and feed products (crops)
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Agricultural Production|Non-Energy|Livestock:
+    Description: total production for livestock products
+    Unit: million t DM/yr
+    Tier: .na.integer
+- Carbon Sequestration|CCS:
+    Description: total carbon dioxide emissions captured and stored in geological
+      deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+      and the deep ocean, stored amounts should be reported as positive numbers
+    Unit: Mt CO2/yr
+    Tier: 1
+- Carbon Sequestration|CCS|Biomass:
+    Description: total carbon dioxide emissions captured from bioenergy use and stored
+      in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams,
+      saline aquifers) and the deep ocean, stored amounts should be reported as positive
+      numbers
+    Unit: Mt CO2/yr
+    Tier: 1
+- Carbon Sequestration|Land Use:
+    Description: total carbon dioxide sequestered through land-based sinks (e.g.,
+      afforestation, soil carbon enhancement, biochar)
+    Unit: Mt CO2/yr
+    Tier: 1
+- Fertilizer Use|Nitrogen:
+    Description: total nitrogen fertilizer use (organic + inorganic)
+    Unit: Tg N/yr
+    Tier: .na.integer
+- Fertilizer Use|Nitrogen|Inorganic:
+    Description: Total nitrogen inputs in inorganic fertilizer use
+    Unit: Tg N/yr
+    Tier: .na.integer
+- Fertilizer Use|Nitrogen|Organic:
+    Description: Total nitrogen inputs in organic fertilizer use
+    Unit: Tg N/yr
+    Tier: .na.integer
+- Fertilizer Use|Phosphorous|Inorganic:
+    Description: Total phosphorous inputs in inorganic fertilizer use
+    Unit: Tg P/yr
+    Tier: .na.integer
+- Fertilizer Use|Phosphorous|Organic:
+    Description: Total phosphorous inputs in organic fertilizer use
+    Unit: Tg P/yr
+    Tier: .na.integer
+- Fertilizer Use|Phosphorus:
+    Description: total phosphorus fertilizer use (organic + inorganic)
+    Unit: Tg P/yr
+    Tier: .na.integer
+- Fertilizer Use|Potassium:
+    Description: total potassium fertilizer use (organic + inorganic)
+    Unit: Tg K2O/yr
+    Tier: .na.integer
+- Fertilizer Use|Potassium|Inorganic:
+    Description: Total potassium inputs in inorganic fertilizer use
+    Unit: Tg K2O/yr
+    Tier: .na.integer
+- Fertilizer Use|Potassium|Organic:
+    Description: Total potassium inputs in organic fertilizer use
+    Unit: Tg K2O/yr
+    Tier: .na.integer
+- Land Cover:
+    Description: total land cover
+    Unit: million ha
+    Tier: 2
+- Land Cover|Built-up Area:
+    Description: total built-up land associated with human settlement
+    Unit: million ha
+    Tier: 2
+- Land Cover|Cropland:
+    Description: total arable land, i.e. land in non-forest bioenergy crop, food,
+      and feed/fodder crops, as well as other arable land (cultivated area)
+    Unit: million ha
+    Tier: 2
+- Land Cover|Cropland|Cereals:
+    Description: 'land dedicated to cereal crops: wheat, rice and coarse grains (maize,
+      corn, millet, sorghum, barley, oats, rye)'
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Cropland|Double-cropped:
+    Description: area of land that is double-cropped (twice in a year)
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Cropland|Energy Crops:
+    Description: land dedicated to both 1st & 2nd generation energy crops
+    Unit: million ha
+    Tier: 2
+- Land Cover|Cropland|Energy Crops|1st generation:
+    Description: land dedicated to 1st generation energy crops
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Cropland|Energy Crops|2nd generation:
+    Description: land dedicated to 2nd generation energy crops (e.g., switchgrass,
+      miscanthus, fast-growing wood species)
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Cropland|Energy Crops|Irrigated:
+    Description: irrigated land dedicated to energy crops (e.g., switchgrass, miscanthus,
+      fast-growing wood species)
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Cropland|Irrigated:
+    Description: irrigated arable land, i.e. land in non-forest bioenergy crop, food,
+      and feed/fodder crops, as well as other arable land (cultivated area)
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Cropland|Rainfed:
+    Description: area of land that is rain-fed
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Forest:
+    Description: managed and unmanaged forest area
+    Unit: million ha
+    Tier: 2
+- Land Cover|Forest|Afforestation and Reforestation:
+    Description: area with afforestation and reforestation
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Forest|Forestry|Harvested Area:
+    Description: Forest area harvested
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Forest|Managed:
+    Description: 'managed forests producing commercial wood supply for timber or energy
+      (note: woody energy crops reported under "energy crops")'
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Forest|Natural Forest:
+    Description: undisturbed natural forests, modified natural forests
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Forest|Secondary:
+    Description: regrown (unmanaged) secondary forests, e.g. from abandoned agricultural
+      land
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Other Arable Land:
+    Description: other arable land that is unmanaged (e.g., grassland, savannah, shrubland),
+      excluding unmanaged forests that are arable
+    Unit: million ha
+    Tier: 2
+- Land Cover|Other Land:
+    Description: other land cover that does not fit into any other category (e.g.,
+      rock, ice, desert, water, please provide a definition of the sources in this
+      category in the 'comments' tab)
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Pasture:
+    Description: pasture land. All categories of pasture land - not only high quality
+      rangeland. Based on FAO definition of "permanent meadows and pastures"
+    Unit: million ha
+    Tier: 2
+- Land Cover|Water Ecosystems|Forests:
+    Description: 'Land-use coverage of water-related ecosystem: forests'
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Water Ecosystems|Glaciers:
+    Description: 'Land-use coverage of water-related ecosystem: glaciers'
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Water Ecosystems|Lakes:
+    Description: 'Land-use coverage of water-related ecosystem: lakes'
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Water Ecosystems|Mountains:
+    Description: 'Land-use coverage of water-related ecosystem: mountains'
+    Unit: million ha
+    Tier: .na.integer
+- Land Cover|Water Ecosystems|Wetlands:
+    Description: 'Land-use coverage of water-related ecosystem: wetlands'
+    Unit: million ha
+    Tier: .na.integer
+- Yield|Bioenergy|2nd generation:
+    Description: aggregated yield of 2nd generation energy crops (e.g., switchgrass,
+      miscanthus, fast-growing wood species)
+    Unit: t DM/ha/yr
+    Tier: .na.integer
+- Yield|Cereal:
+    Description: yield of cereal production per until of area (used here as repreentative
+      crop to measure yield assumptions)
+    Unit: t DM/ha/yr
+    Tier: .na.integer
+- Yield|Oilcrops:
+    Description: aggregated yield of Oilcrops (e.g. soybean, rapeseed, groundnut,
+      sunflower, oilpalm)
+    Unit: t DM/ha/yr
+    Tier: .na.integer
+- Yield|Sugarcrops:
+    Description: aggregated yield of Sugarcrops (e.g. sugarbeet, sugarcane)
+    Unit: t DM/ha/yr
+    Tier: .na.integer
+- Expenditure|household|Food:
+    Description: expenditure of households for food.
+    Unit: billion US$2010/yr
+    Tier: .na.integer
+- Food Demand:
+    Description: 'all food demand in calories (conversion factor: 1 kcal = 4,1868
+      kJ)'
+    Unit: kcal/cap/day
+    Tier: 2
+- Food Demand|Crops:
+    Description: crop related food demand in calories
+    Unit: kcal/cap/day
+    Tier: 2
+- Food Demand|Livestock:
+    Description: livestock related food demand in calories
+    Unit: kcal/cap/day
+    Tier: 2
+- Food Energy Supply:
+    Description: total calory food demand
+    Unit: EJ/yr
+    Tier: .na.integer
+- Food Energy Supply|Livestock:
+    Description: calory food demand from livestock products
+    Unit: EJ/yr
+    Tier: .na.integer
+- Food|Availability:
+    Description: Food available for consumption per capita
+    Unit: kcal/cap/day
+    Tier: .na.integer
+- Subsidies|Food:
+    Description: food subsidies (both to producers and consumers)
+    Unit: billion US$2010/yr
+    Tier: .na.integer
+- Food Waste:
+    Description: Food waste per capita
+    Unit: kcal/cap/day
+    Tier: .na.integer
+- Improvement|Efficiency|Irrigation:
+    Description: improvements in irrigation water use efficiency per year
+    Unit: '%/yr'
+    Tier: .na.integer
+- Water Consumption|Irrigation:
+    Description: water consumption for the irrigation
+    Unit: km3/yr
+    Tier: .na.integer
+- Water Consumption|Livestock:
+    Description: water consumption for livestock
+    Unit: km3/yr
+    Tier: .na.integer
+- Water Withdrawal|Irrigation:
+    Description: water withdrawal for irrigation
+    Unit: km3/yr
+    Tier: .na.integer
+- Water Withdrawal|Livestock:
+    Description: water withdrawals for livestock
+    Unit: km3/yr
+    Tier: .na.integer
+- Price|Agriculture|Corn|Index:
+    Description: price index of corn
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Agriculture|Livestock|Index:
+    Description: weighted average price index of livestock
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Agriculture|Non-Energy Crops and Livestock|Index:
+    Description: weighted average price index of non-energy crops and livestock products
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Agriculture|Non-Energy Crops|Index:
+    Description: weighted average price index of non-energy crops
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Agriculture|Rice|Index:
+    Description: price index of rice
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Agriculture|Soybean|Index:
+    Description: price index of soybean
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Agriculture|Wheat|Index:
+    Description: price index of wheat
+    Unit: Index (2010 = 1)
+    Tier: .na.integer
+- Price|Primary Energy|Biomass:
+    Description: biomass producer price
+    Unit: US$2010/GJ
+    Tier: .na.integer
+- Employment|Agriculture:
+    Description: number of employed inhabitants (payrolls) in agriculture (based on
+      ILO classification)
+    Unit: million
+    Tier: .na.integer
