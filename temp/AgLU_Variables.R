@@ -40,13 +40,19 @@ AR6_Var %>%
   filter(grepl("Ag", Variable)) ->
   AR6_Var_AFOLU_add_labor
 
+## Adding forestry variables ----
+AR6_Var %>%
+  filter(Category == "Forestry") ->
+  AR6_Var_AFOLU_add_forestry
+
 
 # Bind all----
 AR6_Var_AFOLU_original %>%
   bind_rows(AR6_Var_AFOLU_add_food) %>%
   bind_rows(AR6_Var_AFOLU_add_water) %>%
   bind_rows(AR6_Var_AFOLU_add_price) %>%
-  bind_rows(AR6_Var_AFOLU_add_labor) ->
+  bind_rows(AR6_Var_AFOLU_add_labor) %>%
+  bind_rows(AR6_Var_AFOLU_add_forestry)->
   AR6_Var_AFOLU_all
 
 AR6_Var_AFOLU_all %>% readr::write_csv("temp/AR6_Var_AFOLU_all.csv")

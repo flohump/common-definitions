@@ -81,3 +81,10 @@ Economy,Price|Agriculture|Soybean|Index,Index (2010 = 1),price index of soybean,
 Economy,Price|Agriculture|Wheat|Index,Index (2010 = 1),price index of wheat,NA,NA
 Economy,Price|Primary Energy|Biomass,US$2010/GJ,biomass producer price,NA,NA
 SDG,Employment|Agriculture,million,number of employed inhabitants (payrolls) in agriculture (based on ILO classification),NA,NA
+Forestry,Forestry Demand|Roundwood,million m3/yr,"forestry demand level for all roundwood (consumption, not production)",NA,NA
+Forestry,Forestry Demand|Roundwood|Industrial Roundwood,million m3/yr,"forestry demand level for industrial roundwood (consumption, not production)",NA,NA
+Forestry,Forestry Demand|Roundwood|Wood Fuel,million m3/yr,"forestry demand level for fuel wood roundwood (consumption, not production)",NA,NA
+Forestry,Forestry Production|Forest Residues,million t DM/yr,"forestry production level of forest residue output (primary production, not consumption)",NA,NA
+Forestry,Forestry Production|Roundwood,million m3/yr,"forestry production level for all roundwood (primary production, not consumption)",NA,NA
+Forestry,Forestry Production|Roundwood|Industrial Roundwood,million m3/yr,"forestry production level for industrial roundwood (primary production, not consumption)",NA,NA
+Forestry,Forestry Production|Roundwood|Wood Fuel,million m3/yr,"forestry production level for fuel wood roundwood (primary production, not consumption)",NA,NA
