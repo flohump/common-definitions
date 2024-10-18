@@ -1,18 +1,24 @@
-- Food Demand [per capita]:
-    definition: Total food demand per capita in calories
+- Food Supply [per capita]:
+    definition: Total food supply per capita in calories
     unit: kcal/cap/day
     weight: Population
     sdg: 2
     shape: Food|Intake
-- Food Demand|Crops [per capita]:
-    definition: Food demand per capita in calories satisfied by crops
+- Food Supply|Crops [per capita]:
+    definition: Food supply per capita in calories satisfied by crops
     unit: kcal/cap/day
     weight: Population
     sdg: 2
     agmip: p.c. calory intake (CALI) - All crops (CRP)
     shape: Food|Intake|Crops
-- Food Demand|Livestock [per capita]:
-    definition: Food demand per capita in calories satisfied by livestock
+- Food Supply|Crops|{Cereal and Non-Energy Crop Types} [per capita]:
+    definition: Food supply per capita in calories satisfied by {Cereal and Non-Energy Crop Types}
+    unit: kcal/cap/day
+    weight: Population
+    sdg: 2
+
+- Food Supply|Livestock [per capita]:
+    definition: Food supply per capita in calories satisfied by livestock products
     unit: kcal/cap/day
     weight: Population
     sdg: 2

@@ -9,3 +9,10 @@
     - Other Crops:
         description: other crops (fruits, vegetables, nuts, potatoes, pulses,
           tropical roots)
+- Livestock products:
+    - Dairy:
+        description: dairy products (milk and eggs)
+    - Ruminant:
+        description: ruminants (cattle, goat, sheep)
+    - Non-Ruminant:
+        description: monogastrics (pig) and poultry

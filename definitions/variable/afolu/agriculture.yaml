@@ -3,48 +3,48 @@
       and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Domestic use (CONS)
-    tier: 2
+    tier: 1
 - Agricultural Demand|Crops:
     definition: Demand for crops including food, feed products and bioenergy
       (1st & 2nd generation crops)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - Crops (CRP)
-    tier: 2
+    tier: 1
 - Agricultural Demand|Crops|Food:
     definition: Demand for food crops
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Crops (CRP)
-    tier: 3
+    tier: 2
 - Agricultural Demand|Crops|Food|{Cereal and Non-Energy Crop Types}:
     description: Demand for food from {Cereal and Non-Energy Crop Types}
     unit: million t DM/yr
     agmip: 
-    tier: 4
+    tier: 3
 - Agricultural Demand|Crops|Feed:
     definition: Demand for feed crops
     unit: million t DM/yr
     agmip: Feed demand (FEED) - Crops (CRP)
-    tier: 3
+    tier: 2
 - Agricultural Demand|Crops|Feed|{Cereal and Non-Energy Crop Types}:
     description: Demand for feed from {Cereal and Non-Energy Crop Types}
     unit: million t DM/yr
     agmip: 
-    tier: 4
+    tier: 3
 - Agricultural Demand|Crops|Bioenergy:
     definition: Demand for bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: 
-    tier: 3
+    tier: 2
 - Agricultural Demand|Crops|Bioenergy|1st Generation:
     definition: Demand for 1st generation bioenergy crops (sugar, starch and oil crops)
     unit: million t DM/yr
     agmip: 
-    tier: 3
+    tier: 2
 - Agricultural Demand|Crops|Bioenergy|2nd generation:
     definition: Demand for second-generation bioenergy crops (short rotation grasses, short rotation trees)
     unit: million t DM/yr
     agmip: Domestic use (CONS) - Energy Crops (ECP)
-    tier: 3
+    tier: 2
 - Agricultural Demand|Crops|Other:
     definition: Demand of crops for other uses
     unit: million t DM/yr
@@ -54,27 +54,16 @@
     definition: Demand for livestock products
     unit: million t DM/yr
     agmip: Domestic use (CONS) - LSP
-    tier: 2
+    tier: 1
 - Agricultural Demand|Livestock|Food:
     definition: Demand for livestock products used as food
     unit: million t DM/yr
     agmip: Food demand (FOOD) - Livestock (LSP)
+    tier: 2
+- Agricultural Demand|Livestock|Food|{Livestock products}:
+    definition: Demand for livestock products used as food from {Livestock products}
+    unit: million t DM/yr
     tier: 3
-- Agricultural Demand|Livestock|Food|Dairy:
-    definition: Demand for livestock products used as food from dairy (milk and eggs)
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Dairy (DRY)
-    tier: 4
-- Agricultural Demand|Livestock|Food|Ruminant:
-    definition: Demand for livestock products used as food from ruminants
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Ruminant (RUM)
-    tier: 4
-- Agricultural Demand|Livestock|Food|Non-Ruminant:
-    definition: Demand for livestock products used as food from monogastrics and poultry
-    unit: million t DM/yr
-    agmip: Food demand (FOOD) - Non-Ruminant (NRM)
-    tier: 4
 - Agricultural Demand|Livestock|Feed:
     definition: Demand for livestock products used as feed
     unit: million t DM/yr
@@ -90,7 +79,7 @@
       other uses
     unit: million t DM/yr
     agmip: 
-    tier: 3
+    tier: 2
 - Agricultural Demand|Residues|Feed:
     definition: Demand for residues as feed
     unit: million t DM/yr
@@ -100,7 +89,7 @@
     definition: Demand for residues as bioenergy
     unit: million t DM/yr
     agmip: 
-    tier: 3
+    tier: 2
 - Agricultural Demand|Residues|Other:
     definition: Demand of residues for other uses
     unit: million t DM/yr
@@ -112,12 +101,12 @@
       and bioenergy crops (1st & 2nd generation)
     unit: million t DM/yr
     agmip: Production (PROD)
-    tier: 2
+    tier: 1
 - Agricultural Production|Crops:
     definition: Production of crops
     unit: million t DM/yr
     agmip: Production (PROD) - All crops (CRP)
-    tier: 2
+    tier: 1
 - Agricultural Production|Crops|{Cereal and Non-Energy Crop Types}:
     description: Production of {Cereal and Non-Energy Crop Types}
     unit: million t DM/yr
@@ -133,21 +122,10 @@
     definition: Production of livestock products
     unit: million t DM/yr
     agmip: Production (PROD) - Livestock (LSP)
-    tier: 2
-- Agricultural Production|Livestock|Dairy:
-    definition: Production of dairy livestock products
+    tier: 1
+- Agricultural Production|Livestock|{Livestock products}:
+    definition: Production of {Livestock products}
     unit: million t DM/yr
-    agmip: Production (PROD) - Dairy (DRY)
-    tier: 3
-- Agricultural Production|Livestock|Ruminant:
-    definition: Production of livestock products from ruminants
-    unit: million t DM/yr
-    agmip: Production (PROD) - Ruminant (RUM)
-    tier: 3
-- Agricultural Production|Livestock|Non-Ruminant:
-    definition: Production of livestock products from monogastrics and poultry
-    unit: million t DM/yr
-    agmip: Production (PROD) - Non-Ruminant (NRM)
     tier: 3
 - Agricultural Production|Residues:
     definition: Production of agricultural residues
